@@ -64,13 +64,13 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oVOpB6f5a2CKGhrV3isEdWa_t7Eo",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "snCNkiB5hQHS-voau5Dzo-JA3MOqkvcM4iLh3CY9KHI",
+      useTemplateId: "VyTf0riyJXPeZOEvZr430bvrOEda2Sdb8z1DA1rbXl8",
       // 所在省份
       province: "江苏",
       // 所在城市
       city: "苏州",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '6-27',
+      horoscopeDate: '09-06',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -97,16 +97,25 @@ export const USER_CONFIG = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      name: "瓜瓜",
+      id: "oVOpB6ZXVE_hW9D560SrCdsTsDYc",
+      useTemplateId: "VyTf0riyJXPeZOEvZr430bvrOEda2Sdb8z1DA1rbXl8",
+      province: "江苏",
+      city: "苏州",
+      horoscopeDate: '6-27',
+      horoscopeDateType: '今日',
+      openUrl: "https://s.weibo.com/top/summary/",
+      festivals: [
+        {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "04-17"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "呱呱🍉", "year": "1998", "date": "06-27"},
+        {"type": "节日", "name": "叽叽🐤", "year": "1997", "date": "09-06"},
+      ],
+      customizedDateList: [
+        {"keyword": "love_day", date: "2021-04-17"},
+        {"keyword": "birthday", date: "2023-06-27"},
+        {"keyword": "my_birthday", date: "2023-09-06"},
+      ]
     },
     {
       name: "老婆2",
