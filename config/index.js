@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oVOpB6f5a2CKGhrV3isEdWa_t7Eo",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "LMEAL4RG1aERegILGXAKI1N-i87PAggN5yKY9YBkx2M",
+      useTemplateId: "_Mf9W5NeuV-vgvaw7dg256_NK-boA0T1lotxs_SX7c4",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -78,7 +78,7 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
+        {"type": "*生日", "name": "老婆", "year": "1998", "date": "06-27"},
         {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
